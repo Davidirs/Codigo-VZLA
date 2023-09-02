@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
 }
+.splash-w{
+    display: block;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
 .centrado {
 display: flex;
 flex-wrap: nowrap;
