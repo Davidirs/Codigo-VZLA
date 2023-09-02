@@ -6,20 +6,54 @@
 body{
     background-image:url(/assets/images/bg-fondo-chat.png);
 }
-header{
+
+html,body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+.header{
     background-color:rgb(0, 128, 105);
     color:white;
-    padding: 10px;
+    padding: 12px;
 }
 
-.bg-mostar{
-    background-color: rgb(248, 229, 151);
-    border-radius: 10px;
-    color: rgb(57, 57, 57);
-    height: 100px;
-    width: 500px;
+.actions{
     display: flex;
-    align-items: center; 
+    align-items: center;   
+}
+.actions a{
+    font-size: 20px;
+}
+
+.orden-actions{
+    display: flex;
+    justify-content: space-between;
+}
+.phone-and-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone-and-video a{
+    margin-right: 40px;
+}
+.margin{
+    margin-right: 20px;
+}
+
+
+.bg-mostar{
+    background-color: rgb(255, 238, 204);
+    border-radius: 10px;
+    color: rgb(107, 107, 107);
+    height: 130px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
 .bg-mostar p{
@@ -37,6 +71,10 @@ header{
     margin: 10px;
 }
 
+.info a{
+    color:rgb(57, 57, 57);
+}
+
 .bg-white{
     display: flex;
     justify-content: center;
@@ -47,3 +85,65 @@ header{
     height: 45px;
     width: 58px;
 }
+.font-zize{
+    font-size: 40px;
+}
+.font{
+    font-size: 25px;
+}
+
+.user-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color:rgb(107, 107, 107); 
+    width: 85%;
+    height: 55px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+.icons{
+    display: flex;
+    align-items: center;      
+}
+
+.icons a{
+    margin-right:20px;
+    font-size: 25px;
+
+}
+.microphone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(0, 168, 132) ;
+    border-radius: 100%;
+    height:55px ;
+    width: 55px;
+    margin-right: 2px;
+}
+.microphone a{
+    font-size: 20px;
+    color: white;;
+}
+.ordenador{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.stiker{
+    margin-left:10px ;
+    font-size: 25px;
+}
+
+
