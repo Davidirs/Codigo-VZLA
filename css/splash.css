@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.splash-w{
+    display: block;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.centrado {
+display: flex;
+flex-wrap: nowrap;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+height: 80vh;
+}
+
+.center {
+    height: 100px; width: 100px;
+    
+}
+.align {
+width: 150px;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.from {
+    color: grey;
+}
