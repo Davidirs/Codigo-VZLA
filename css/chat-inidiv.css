@@ -162,7 +162,7 @@ body {
 }
 
 
-.emoji-windows {
+#emoji-windows {
     height: 40vh;
     width: 100%;
 }
@@ -230,6 +230,7 @@ body {
     overflow-y: scroll;
 
 }
+
 #barra{
     color: rgb(0, 168, 132);
     background-color: rgb(0, 168, 132);
