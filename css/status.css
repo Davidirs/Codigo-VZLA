@@ -1,5 +1,6 @@
 
 *{
+    font-family: 'Segoe','Helvetica','Lucida grande';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,6 +21,13 @@ justify-content: flex-end;
 align-items: center;
 padding: 0;
 list-style: none;
+
+}
+.padding-separacion-centrado{
+padding-left: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
 
 }
 .order li{
@@ -54,8 +62,8 @@ nav{
     border-radius: 50%;   ;
 }
 .perfil{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
 }
 .flex{
     display: flex;
@@ -63,13 +71,13 @@ nav{
 .icono-verde{
     border-radius: 50%;
     background-color: #24D365;
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin:70px 0 0 -30px;
-    border: 5px white solid;
+    margin:41px 0 0 -30px;
+    border: 3px white solid;
     color: white;
     font-size: xx-large;
 }
@@ -96,8 +104,8 @@ margin:10px 0 20px 10px;
 }
 .style{
     color: #008069;
-}
-.colo-black{
+    
+
 
 }
 .text{
@@ -111,7 +119,12 @@ margin:10px 0 20px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: ;
+    margin-bottom: 20px;
+    text-decoration: none;
+    
+
+
+   
     
 }
 
@@ -123,4 +136,31 @@ margin:10px 0 20px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+   
+
+
+.containner{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+   flex-direction: column;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.white{
+    color: white;
+}
+
+.tex-alins{
+
+margin: 40PX 0 40PX 10PX;
+
+}
+.gray{
+    color: rgb(95, 93, 93);
 }
