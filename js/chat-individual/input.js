@@ -1,6 +1,16 @@
 //creamos una constante y obtenemos el id del input
 const input = document.getElementById("input");
 const inputPlaceHolder = document.querySelector("#input .place-holder");
+const mostrarEmoji = document.getElementById('mostrarEmoji');
+const ocultar = document.querySelectorAll('.none');
+
+mostrarEmoji.addEventListener('click',()=>{
+    for (let i = 0; i < ocultar.length; i++) {
+        ocultar[i].classList.toggle('block');
+        
+    }
+    
+});
 console.log(inputPlaceHolder);
 
 //escuchamos el evento de tecla presionada
