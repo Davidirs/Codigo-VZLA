@@ -1,0 +1,45 @@
+.create-call{
+    display: flex;
+    align-items: center;   
+   
+}
+.create-call h2{
+   margin-left: 15px;
+  
+}
+span{
+    font-size: 20px ;
+    font-weight: 200;
+    color: gray;
+}
+.icon-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008069;
+    border-radius: 100%;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+}
+
+h4{
+    color: gray;
+    font-weight: 550;
+}
+.light-gray{
+    color:lightgray;
+}
+.info-call{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+}
+
+.call{
+    display: flex;
+   align-items: baseline;
+    z-index: 999;
+    position: fixed;
+}
