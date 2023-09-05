@@ -1,0 +1,23 @@
+.bg-white{
+    background-color: #ffF;
+}
+
+.container-comunity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-star-comunity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008069;
+    height: 42px;
+    width: 80%;
+    color: #fff;
+    border-radius: 20px;
+}
+span{
+    color: #01a385;
+    font-weight: 550;
+}
