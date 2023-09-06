@@ -44,10 +44,17 @@ justify-content: center;
 }
 .fonz{
 font-size: large;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
 }
 
 .tag{
-    padding: 10px;
+    height: 50px;
+    
+    color: darkgrey;
+    
 }
 
 nav{
@@ -136,6 +143,8 @@ margin:10px 0 20px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    
 
 }
    
@@ -163,4 +172,15 @@ margin: 40PX 0 40PX 10PX;
 }
 .gray{
     color: rgb(95, 93, 93);
+}
+.activo{
+    color: white;
+    border-bottom: 4px solid white;
+}
+
+.ancho{
+    padding: 0px 20px;
+    height: 50px;
+    
+    
 }
