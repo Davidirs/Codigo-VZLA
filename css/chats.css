@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex; justify-content: space-between;
+    background-color: #008069;
+    color: white;
+}
+
+.margen{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.letra{
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.margin-1{
+    padding-right: 15px;
+}
+
+.orden{
+    padding-top: 15px;
+    background-color: #008069;
+    color: white;
+}
+
+.orden-1{
+    padding-left: 60px;
+}
+
+.orden-0{
+    padding-left: 7px;
+}
+
