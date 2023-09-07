@@ -1,59 +1,34 @@
 //creamos una constante y obtenemos el id del input
-const input = document.getElementById("input");
-const inputPlaceHolder = document.querySelector("#input .place-holder");
 const mostrarEmoji = document.getElementById('mostrarEmoji');
 const ocultar = document.querySelectorAll('.none');
+const textarea = document.getElementById('texarea');
+const botonIcon = document.getElementById('boton-icon-chage');
+
+
+function cambiarIcono() {
+    botonIcon.classList.toggle('fa-microphone');
+    botonIcon.classList.toggle('fa-paper-plane');
+    console.log('lala');
+}
+   
+
 
 mostrarEmoji.addEventListener('click',()=>{
     for (let i = 0; i < ocultar.length; i++) {
+        ocultar[i].classList.toggle('none');
         ocultar[i].classList.toggle('block');
         
     }
     
 });
-console.log(inputPlaceHolder);
 
-//escuchamos el evento de tecla presionada
-input.addEventListener("keypress", (key) => {
-    //al input le agregamos la tecla precionada
-    bar.remove();
-
-    switch (key.code) {
-        case "Enter":
-            input.innerHTML += "<br>";
-            break;
-        case "Space":
-            let etiqueta = document.createElement("a");
-            //le creamos sus clases
-            etiqueta.classList.add("space")
-            etiqueta.textContent = " ";
-            //se la agregamos a nuestro input
-            input.appendChild(etiqueta);
-
-            input.innerHTML += key.key;
-            break;
-
-        default:
-            inputPlaceHolder.style.display = "none";
-            input.innerHTML += key.key;
-            break;
-    }
-    input.appendChild(bar);
-    /* if(key.key="Enter"){
-    
-        input
-    } */
-    console.log(key.code);
-});
 
 //creamos una funcion para agregar emogi
-function addEmoji(nameEmoji) {
+function addEmoji(emoji) {
     //definimos la etiqueta i que es la que usa fontawesome
-    let etiqueta = document.createElement("a");
-    //le creamos sus clases
-    etiqueta.textContent = nameEmoji;
-    //se la agregamos a nuestro input
-    input.appendChild(etiqueta);
+    textarea.textContent += emoji;
+    console.log(emoji);
+
 }
 
 //seleccionamos todos los iconos
@@ -67,7 +42,4 @@ for (let j = 0; j < allIcons.length; j++) {
 
 }
 
-let bar = document.getElementById("barra");
-setInterval(function () {
-    bar.classList.toggle("hide");
-}, 500);
+

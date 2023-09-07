@@ -257,10 +257,10 @@ body {
     height: 30vh;
     overflow: scroll;
 }
+
 .none{
     display: none;
 }
-
 .block{
     display:block;
     }
