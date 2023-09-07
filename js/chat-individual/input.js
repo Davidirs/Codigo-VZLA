@@ -3,12 +3,30 @@ const mostrarEmoji = document.getElementById('mostrarEmoji');
 const ocultar = document.querySelectorAll('.none');
 const textarea = document.getElementById('texarea');
 const botonIcon = document.getElementById('boton-icon-chage');
+const chat = document.getElementById('chat');
 
 
 function cambiarIcono() {
-    botonIcon.classList.toggle('fa-microphone');
-    botonIcon.classList.toggle('fa-paper-plane');
-    console.log('lala');
+
+    if( textarea.value.length===0){
+        botonIcon.classList.add('fa-microphone');
+        botonIcon.classList.remove('fa-paper-plane');
+    }else{
+        botonIcon.classList.remove('fa-microphone');
+        botonIcon.classList.add('fa-paper-plane');
+    }    
+}
+
+function sendmessage() {
+
+    if (textarea.value !=="") {
+        const messageElement= document.createElement('div');
+        messageElement.classList.add('chat-text');
+        messageElement.textContent = textarea.value;
+       chat.appendChild(messageElement);
+       textarea.value ="";
+        
+    }
 }
    
 
