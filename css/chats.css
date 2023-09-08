@@ -20,9 +20,6 @@ header{
     padding-top: 20px;
 }
 
-.margin-1{
-    padding-right: 15px;
-}
 
 .orden{
     padding-top: 15px;
@@ -34,7 +31,91 @@ header{
     padding-left: 60px;
 }
 
-.orden-0{
-    padding-left: 7px;
+
+.fa-solid{
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+.img-1{
+    width: 30px;
+    height: 30px;
+    border: solid 5px;
+    border-color: white ;
+    border-radius: 30px;
+    background-color: rgb(180, 177, 177);
+    padding: 8px;
+}
+
+.flex{
+    display: flex;
+    padding-top: 10px;
+}
+
+.padding{
+    padding-left: 12px;
+    padding-top: 5px;
+}
+
+.gray{
+    color: gray;
+}
+
+.separar{
+    padding-left: 5px;
+}
+
+.img-2{
+    width: 40px;
+    height: 40px;
+    border: solid 5px;
+    border-color: white ;
+    border-radius: 30px;
+    background-color:white;
+    padding: 8px;
+}
+
+.padding-2{
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+.img-3{
+    width: 40px;
+    height: 40px;
+    border: solid px;
+    border-color: white ;
+    border-radius: 30px;
+    background-color:white;
+    padding: 8px;
+    padding-left: 10px;
+    margin-left: 3px;
+}
+
+.padding-3{
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.flex-2{
+    display: flex;
+    padding-top: 2px;
+}
+
+.img-4{
+    width: 30px;
+    height: 30px;
+    border: solid 5px;
+    border-color: white ;
+    border-radius: 30px;
+    background-color: rgb(180, 177, 177);
+    padding: 8px;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+
+.padding-4{
+    padding-left: 14px;
+    padding-top: 5px;
 }
 
