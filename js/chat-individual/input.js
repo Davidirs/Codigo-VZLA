@@ -22,8 +22,18 @@ function sendmessage() {
     if (textarea.value !=="") {
         const messageElement= document.createElement('div');
         messageElement.classList.add('chat-text');
+        const divFlex= document.createElement('div');
+        divFlex.classList.add('flex-end');
+        const messageElementA= document.createElement('a');
+        messageElementA.classList.add('fa-solid','fa-check');
         messageElement.textContent = textarea.value;
+        let today = new Date();
+        let now = today.toLocaleTimeString([],
+            {hour:"2-digit",minute:"2-digit",hour12:true});
+        divFlex.textContent= now;
        chat.appendChild(messageElement);
+       messageElement.appendChild(divFlex);
+       divFlex.appendChild(messageElementA);
        textarea.value ="";
         
     }
