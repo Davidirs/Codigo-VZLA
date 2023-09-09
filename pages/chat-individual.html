@@ -16,22 +16,25 @@
         <section class="header">
             <div class="orden-actions">
 
-                <div class="user-contac">
-                    <a class="fa-solid fa-arrow-left font "></a>
-                    <a class="fa-solid fa-circle font-zize"></a>
+                <div class="user-contact">
+                    <a class="fa-solid fa-arrow-left font " onclick="history.back()"></a>
+                  <a href="user-perfil.html">                
+               <img  class="perfil-style" src="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1576497340/content-items/003/518/329/_MG_5442-original.jpg?1576497340" /></a>
+                    <h3>User</h3>
+                </div>
+                
+
+
+                <div class="actions">
+                    <div class="phone-and-video">
+                        <div><a class="fa-solid fa-video"></a></div>
+                        <div><a class="fa-solid fa-phone"></a></div>
+                    </div>
+                    <div class="margin"><a class="fa-solid fa-ellipsis-vertical"></a></div>
                 </div>
 
-                
-<div class="actions">
-    <div class="phone-and-video">
-        <div><a class="fa-solid fa-video"></a></div>
-        <div><a class="fa-solid fa-phone"></a></div>   
-    </div>
-    <div class="margin"><a class="fa-solid fa-ellipsis-vertical"></a></div> 
-    </div>
-
             </div>
-        </section>
+
 
         <section>
             <section class="info">
@@ -65,10 +68,11 @@
 
             <div class="icons">
                 <a class="fa-solid fa-paperclip"></a>
-                <a class=" fa-solid fa-camera"></a>
+                <a class=" fa-solid fa-camera" href="camera.html"></a>
             </div>
         </div>
-        <div class="microphone"><a class="fa-solid fa-microphone"></a></div>
+        <div class="microphone"><a class="fa-solid fa-microphone" onclick="sendmessage();" id="boton-icon-chage"></a>
+        </div>
     </section>
     <section id="emoji-windows" style="background-color: white;" class="none">
         <nav class="flex-between nav">
@@ -261,7 +265,7 @@
 
     </section>
     <script src="../js/chat-individual/input.js"></script>
-   
+
 
 </body>
 
