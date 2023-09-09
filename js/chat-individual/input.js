@@ -1,12 +1,49 @@
-//creamos una constante y obtenemos el id del i
-/* nput
-const input = document.getElementById("input"); 
-const inputPlaceHolder = document.querySelector("#input .place-holder");
-*/const mostrarEmoji = document.getElementById('mostrarEmoji');
+//creamos una constante y obtenemos el id del input
+const mostrarEmoji = document.getElementById('mostrarEmoji');
 const ocultar = document.querySelectorAll('.none');
+const textarea = document.getElementById('texarea');
+const botonIcon = document.getElementById('boton-icon-chage');
+const chat = document.getElementById('chat');
+
+
+function cambiarIcono() {
+
+    if( textarea.value.length===0){
+        botonIcon.classList.add('fa-microphone');
+        botonIcon.classList.remove('fa-paper-plane');
+    }else{
+        botonIcon.classList.remove('fa-microphone');
+        botonIcon.classList.add('fa-paper-plane');
+    }    
+}
+
+function sendmessage() {
+
+    if (textarea.value !=="") {
+        const messageElement= document.createElement('div');
+        messageElement.classList.add('chat-text');
+        const divFlex= document.createElement('div');
+        divFlex.classList.add('flex-end');
+        const messageElementA= document.createElement('a');
+        messageElementA.classList.add('fa-solid','fa-check');
+        messageElement.textContent = textarea.value;
+        let today = new Date();
+        let now = today.toLocaleTimeString([],
+            {hour:"2-digit",minute:"2-digit",hour12:true});
+        divFlex.textContent= now;
+       chat.appendChild(messageElement);
+       messageElement.appendChild(divFlex);
+       divFlex.appendChild(messageElementA);
+       textarea.value ="";
+        
+    }
+}
+   
+
 
 mostrarEmoji.addEventListener('click',()=>{
     for (let i = 0; i < ocultar.length; i++) {
+        ocultar[i].classList.toggle('none');
         ocultar[i].classList.toggle('block');
         
     }
@@ -14,49 +51,12 @@ mostrarEmoji.addEventListener('click',()=>{
 });
 
 
-
-//escuchamos el evento de tecla presionada
-/* input.addEventListener("keypress", (key) => {
-    //al input le agregamos la tecla precionada
-    bar.remove();
-
-    switch (key.code) {
-        case "Enter":
-            input.innerHTML += "<br>";
-            break;
-        case "Space":
-            let etiqueta = document.createElement("a");
-            //le creamos sus clases
-            etiqueta.classList.add("space")
-            etiqueta.textContent = " ";
-            //se la agregamos a nuestro input
-            input.appendChild(etiqueta);
-
-            input.innerHTML += key.key;
-            break;
-
-        default:
-            inputPlaceHolder.style.display = "none";
-            input.innerHTML += key.key;
-            break;
-    }
-    input.appendChild(bar);
-    /* if(key.key="Enter"){
-    
-        input
-    } 
-    console.log(key.code);
-}); */
-
 //creamos una funcion para agregar emogi
-function addEmoji(nameEmoji) {
+function addEmoji(emoji) {
     //definimos la etiqueta i que es la que usa fontawesome
-   /*  let etiqueta = document.createElement("a");
-    //le creamos sus clases
-    etiqueta.textContent = nameEmoji;
-    //se la agregamos a nuestro input
-    input.appendChild(etiqueta); */
-    textarea.textContent +=nameEmoji;
+    textarea.textContent += emoji;
+    console.log(emoji);
+
 }
 
 //seleccionamos todos los iconos
@@ -68,11 +68,4 @@ for (let j = 0; j < allIcons.length; j++) {
         addEmoji(allIcons[j].textContent);
     });
 
-}
-
-
-const textarea = document.getElementById("textarea");
-function rueba(){
-    let h =document.getElementById("textarea");
-    console.log(h.textContent)
 }
