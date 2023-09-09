@@ -1,7 +1,8 @@
-//creamos una constante y obtenemos el id del input
-const input = document.getElementById("input");
+//creamos una constante y obtenemos el id del i
+/* nput
+const input = document.getElementById("input"); 
 const inputPlaceHolder = document.querySelector("#input .place-holder");
-const mostrarEmoji = document.getElementById('mostrarEmoji');
+*/const mostrarEmoji = document.getElementById('mostrarEmoji');
 const ocultar = document.querySelectorAll('.none');
 
 mostrarEmoji.addEventListener('click',()=>{
@@ -11,10 +12,11 @@ mostrarEmoji.addEventListener('click',()=>{
     }
     
 });
-console.log(inputPlaceHolder);
+
+
 
 //escuchamos el evento de tecla presionada
-input.addEventListener("keypress", (key) => {
+/* input.addEventListener("keypress", (key) => {
     //al input le agregamos la tecla precionada
     bar.remove();
 
@@ -42,18 +44,19 @@ input.addEventListener("keypress", (key) => {
     /* if(key.key="Enter"){
     
         input
-    } */
+    } 
     console.log(key.code);
-});
+}); */
 
 //creamos una funcion para agregar emogi
 function addEmoji(nameEmoji) {
     //definimos la etiqueta i que es la que usa fontawesome
-    let etiqueta = document.createElement("a");
+   /*  let etiqueta = document.createElement("a");
     //le creamos sus clases
     etiqueta.textContent = nameEmoji;
     //se la agregamos a nuestro input
-    input.appendChild(etiqueta);
+    input.appendChild(etiqueta); */
+    textarea.textContent +=nameEmoji;
 }
 
 //seleccionamos todos los iconos
@@ -67,7 +70,9 @@ for (let j = 0; j < allIcons.length; j++) {
 
 }
 
-let bar = document.getElementById("barra");
-setInterval(function () {
-    bar.classList.toggle("hide");
-}, 500);
+
+const textarea = document.getElementById("textarea");
+function rueba(){
+    let h =document.getElementById("textarea");
+    console.log(h.textContent)
+}
