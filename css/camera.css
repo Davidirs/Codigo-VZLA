@@ -1,0 +1,123 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.fa-solid {
+    color: white;
+}
+
+.section {
+    background-color: gray;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.color {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.tamano {
+    height: 10vh;
+
+}
+
+.blanco-transparente {
+
+    color: rgba(255, 255, 255, 0.37);
+}
+
+
+.blanco {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 25%;
+    padding: 3px 3px 3px 3px;
+}
+
+.decoration {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.order {
+    display: flex;
+    align-items: center;
+
+
+
+
+
+
+}
+
+.circle {
+    background-color: transparent;
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    border: 5px white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.radius {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+
+}
+
+
+.circulo-transparente {
+
+    background-color: rgba(0, 0, 0, 0.432);
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+
+.ancle {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.coloFondo {
+    background-color: rgba(0, 0, 0, 0.432);
+}
