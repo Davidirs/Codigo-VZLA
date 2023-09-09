@@ -70,7 +70,6 @@ for (let j = 0; j < allIcons.length; j++) {
     allIcons[j].addEventListener("click", () => {
         addEmoji(allIcons[j].textContent);
     });
-
 }
 
 botonOptionChat.addEventListener('click',()=>{
@@ -86,4 +85,6 @@ window.onclick = function(event)
         optionsChat.classList.add('ocultar');
     }
 }
+
+
 
