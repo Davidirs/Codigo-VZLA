@@ -17,12 +17,13 @@
             <div class="orden-actions">
 
                 <div class="user-contact">
-                    <a class="fa-solid fa-arrow-left font " onclick="history.back()"></a>
-                  <a href="user-perfil.html">                
-               <img  class="perfil-style" src="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1576497340/content-items/003/518/329/_MG_5442-original.jpg?1576497340" /></a>
+                    <a class="fa-solid fa-arrow-left font"  onclick="history.back()"></a>
+                    <a href="user-perfil.html">
+                        <img class="perfil-style"
+                            src="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1576497340/content-items/003/518/329/_MG_5442-original.jpg?1576497340" /></a>
                     <h3>User</h3>
                 </div>
-                
+
 
 
                 <div class="actions">
@@ -31,18 +32,18 @@
                         <div><a class="fa-solid fa-phone"></a></div>
                     </div>
                     <div class="margin">
-                        <a class="fa-solid fa-ellipsis-vertical"></a>
-                       
+                        <a class="fa-solid fa-ellipsis-vertical" id="butonOptions"></a>
+
                     </div>
-                  
+
                 </div>
-            
+
             </div>
 
 
     </header>
 
-    <section class="info" >
+    <section class="info">
         <div class="bg-white">
             <h3>Hoy</h3>
         </div>
@@ -52,10 +53,10 @@
                 fuera de este chat, ni si quiera WhatsApp,<br> puede leerlos ni escuharlos. Toca para <br>
                 obtener más información.</p>
         </div>
-        <div>lallalaa</div>
+       
 
         <div id="chat">
-                
+
         </div>
     </section>
 
@@ -76,8 +77,9 @@
                 <a class=" fa-solid fa-camera" href="camera.html"></a>
             </div>
         </div>
-        <div class="microphone"><a class="fa-solid fa-microphone" onclick="sendmessage();" id="boton-icon-chage"></a>
-        </div>
+        <a class=" microphone" onclick="sendmessage();" >
+        <i class="fa-solid fa-microphone" id="boton-icon-chage" ></i></a>
+        
     </section>
     <section id="emoji-windows" style="background-color: white;" class="none">
         <nav class="flex-between nav">
@@ -269,6 +271,17 @@
         </div>
 
     </section>
+    <div  id="optionsChat"  class="ocultar">
+        <div class="options" >
+            <a >Ver contacto</a>
+            <a >Archivos, enlaces y docs.</a>
+            <a >Silenciar notificaciones</a>
+            <a >Mensajes temporales</a>
+            <a >Fondo de pantalla</a>
+            <a >Más</a>
+        </div>
+
+    </div>
     <script src="../js/chat-individual/input.js"></script>
 
 
