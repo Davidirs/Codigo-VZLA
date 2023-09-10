@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Segoe UI', 'Helvetica Neue',Helvetica,'Lucida Grande';
 }
 
 header{
@@ -12,12 +13,13 @@ header{
 .margen{
     padding-top: 20px;
     padding-right: 10px;
+    font-size: 17px;
 }
 
 .letra{
     font-size: 15px;
     padding-left: 15px;
-    padding-top: 20px;
+    padding-top: 22px;
 }
 
 
@@ -63,6 +65,7 @@ header{
 
 .separar{
     padding-left: 5px;
+    margin-top: 5px;
 }
 
 .img-2{
@@ -94,7 +97,6 @@ header{
 
 .padding-3{
     padding-left: 15px;
-    padding-top: 5px;
 }
 
 .flex-2{
@@ -131,6 +133,25 @@ header{
     display: flex;flex-direction: column; align-items: center;
     padding-top: 10px;
     padding-left: 20px;
+}
+
+.radius{
+    border-radius: 10px;
+    background-color: #008069;
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flex-3{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
 }
 
 
