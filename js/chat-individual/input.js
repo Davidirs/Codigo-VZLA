@@ -4,6 +4,9 @@ const ocultar = document.querySelectorAll('.none');
 const textarea = document.getElementById('texarea');
 const botonIcon = document.getElementById('boton-icon-chage');
 const chat = document.getElementById('chat');
+const ocultarOption = document.querySelector('.ocultar');
+const optionsChat= document.getElementById('optionsChat');
+const botonOptionChat =document.getElementById('butonOptions');
 
 
 function cambiarIcono() {
@@ -67,7 +70,21 @@ for (let j = 0; j < allIcons.length; j++) {
     allIcons[j].addEventListener("click", () => {
         addEmoji(allIcons[j].textContent);
     });
-
 }
+
+botonOptionChat.addEventListener('click',()=>{
+    optionsChat.classList.toggle('ocultar');
+    optionsChat.classList.toggle('block');
+
+});
+
+window.onclick = function(event)
+{
+    if(event.target== optionsChat){
+        optionsChat.classList.remove('block');
+        optionsChat.classList.add('ocultar');
+    }
+}
+
 
 

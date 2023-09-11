@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', 'Helvetica Neue,Helvetica','Lucida Grande';
+    font-family: 'Segoe UI', 'Helvetica Neue',Helvetica,'Lucida Grande';
 }
 
 .banner {
@@ -63,9 +63,15 @@ h1 {
 
 .flex-center {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}
+.row{
+    flex-direction: row;
 }
 
 hr {
