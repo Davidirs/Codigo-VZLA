@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title>Status</title>
+   <link rel="shortcut icon" href="../assets/images/whatsapp-logo.jpg" type="image/x-icon">
+    
+   <link rel="stylesheet" href="../css/status.css" />
+    <script src="https://kit.fontawesome.com/eb442954bf.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="color">WhatsAap</h1>
+      <ul class="order">
+        <li><a ><i class="fa-solid fa-camera color"></i></a></li>
+        <li><a ><i class="fa-solid fa-magnifying-glass color"></i></a></li>
+        <li><a ><i class="fa-solid fa-ellipsis-vertical color"></i></a></li>
+      </ul>
+     </header>
+     <nav class="tag">
+        <ul class="list-style">
+         <li class="fonz ancho"><a><i class="fa-solid fa-people-group"></i></a></li>
+         <li class="fonz ancho"><a onclick="changeTab(1);"class="menuChat"> Chat</a></li>
+         <li class="fonz ancho activo"><a>Estados</a> </li>
+         <li class="fonz ancho"><a > Llamadas</a> </li>
+        </ul>
+       </nav>
+
+       <div id="content"></div>
+       <script src="../js/navegar.js"></script>
+    </body >
+    </html>
