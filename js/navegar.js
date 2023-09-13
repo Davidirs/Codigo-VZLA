@@ -24,5 +24,5 @@ function changeTab(tab) {
     });
 }
 
- $(document).ready(function(){
-        $('#content').load('../components/header.html')});
+ /* $(document).ready(function(){
+        $('#content').load('../components/header.html')}); */
