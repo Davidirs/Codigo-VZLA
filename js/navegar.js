@@ -2,7 +2,7 @@ function changeTab(tab) {
     $(document).ready(function(){
         switch (tab) {
             case 0:
-                $('#content').load('../pages/comuninty.html');
+                $('#content').load('../pages/comunity.html');
                 
                 break;
             case 1:
@@ -24,5 +24,8 @@ function changeTab(tab) {
     });
 }
 
- /* $(document).ready(function(){
-        $('#content').load('../components/header.html')}); */
+ 
+window.onload=()=>{
+    $(document).ready(function(){
+        $('#header').load('../components/header.html')});
+    }
