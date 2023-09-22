@@ -11,7 +11,7 @@
 
 <body>
     <section class="section">
-        <div class="display">
+        <div class="display fondo-negro dimensiones">
             <div>
                 <a onclick="history.back();"><i class="fa-solid fa-x"></i></a>
             </div>
@@ -20,33 +20,44 @@
             </div>
         </div>
 
-
+    <div class="camara">
         <div>
-            <div class="ancle">
-                <a href=""><i class="fa-solid fa-chevron-up"></i>
-                </a>
-            </div>
+            <video src="" id="video" width="489" height="350" ></video>
+        </div> 
+    </div>
+
+    <div class="tomar-foto">
+
+          
+
             <div class="flex">
                 <div class="circulo-transparente">
                     <a href=""><i class="fa-solid fa-image"></i></a>
                 </div>
                 <div>
-
+                      <div class="ancle">
+                <a href=""><i class="fa-solid fa-chevron-up"></i>
+                </a>
+            </div>
                     <a href="">
                         <div class="circle">
                             <div class="radius"></div>
                         </div>
                     </a>
                 </div>
-                <div class="circulo-transparente">
-                    <a href=""><i class="fa-solid fa-rotate"></i></a>
+                    <div class="circulo-transparente">
+                        <a href=""><i class="fa-solid fa-rotate"></i></a>
+                     </div>
                 </div>
-            </div>
-            <nav class="tamano color">
+             </div>
+        </div>
+
+        
+            <nav class="tamaño color">
                 <ul class="order">
 
                     <li class="coloFondo">
-                        <a class="blanco-transparente decoration" href="#">Video</a>
+                        <a class="blanco-transparente" href="#">Video</a>
                     </li>
 
 
@@ -55,11 +66,13 @@
                     </li>
                 </ul>
             </nav>
-        </div>
+        
+
+
 
     </section>
 
-
+    <script src="../js/camara.js"></script>
 
 </body>
 

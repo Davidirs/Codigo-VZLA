@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+   background-color: #008069;
+   color: white;
+   height: 50px;
+}
+
+.ajustes{
+	display: flex;
+	align-items: center;
+
+}
+
+.ajustes h2{
+	margin-left: 50px;
+}
+
+.ajustes a{
+	margin-left: 10px;
+}
+
+.icon-serch-margin{
+	margin-right:10px ;
+}
+
+
+.user{
+	display: flex;
+	margin: 10px;
+	align-items: center;
+}
+
+.user div{
+	margin: 10px;
+}
+
+.info-user{
+	display: flex;
+	flex-direction: column;
+}
+
+.img-redonda{
+	border-radius: 100%;
+	height: 80px;
+	width: 80px;
+}
+
+.settings h2{
+	font-weight: 200;
+}
+
+.settings p{
+	color: gray;
+}
+.cuenta{
+	display: flex;
+	align-items: center;
+}
+
+.cuenta i{
+	margin-left:20px;
+	color: gray;
+}
+
+.cuenta div{
+	margin: 15px;
+}
+
+.meta{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin:50px;
+}
+
+.meta h2{
+	color: gray;
+	font-size: 18px;
+}
+
+.meta p{
+	color: black;
+	font-weight: bold;
+}
+
+.meta i{
+	color:black;
+	margin-right: 5px;
+}
+
+.meta-logo{
+	display: flex;
+}
+

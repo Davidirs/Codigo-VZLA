@@ -198,6 +198,8 @@ margin: 40PX 0 40PX 10PX;
 
 .options a{
     margin: 20px;
+    text-decoration: none;
+    color:black;
 }
 #optionsChats{
     position:fixed;

@@ -2,6 +2,7 @@
     text-decoration: none;
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 .fa-solid {
@@ -9,11 +10,13 @@
 }
 
 .section {
-    background-color: gray;
+    background-color: black;
     height: 100vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -31,18 +34,46 @@
 }
 
 .color {
-    background-color: black;
+    background-color: rgb(18, 28, 41);
     display: flex;
     justify-content: center;
 }
 
-.tamano {
+.tamaño {
     height: 10vh;
+    width: 100%;
+    position: static;
 
 }
 
-.blanco-transparente {
+.fondo-negro{
+    background-color:black;
+}
 
+.camara{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.tomar-foto{
+    position:relative;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.tomar-foto .circulo-transparente{
+   margin-right: 80px;
+   margin-left: 80px;
+}
+.blanco-transparente {
     color: rgba(255, 255, 255, 0.37);
 }
 
@@ -50,25 +81,15 @@
 .blanco {
     color: white;
     background-color: rgba(255, 255, 255, 0.37);
-    border-radius: 25%;
-    padding: 3px 3px 3px 3px;
+    border-radius: 20px;
+    padding: 3px 10px 3px 10px;
 }
 
-.decoration {
-    text-decoration: none;
-    list-style: none;
-}
 
 
 .order {
     display: flex;
     align-items: center;
-
-
-
-
-
-
 }
 
 .circle {
@@ -80,8 +101,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 
@@ -93,6 +112,10 @@
 
 }
 
+.dimensiones{
+    height: 20vh;
+}
+
 
 .circulo-transparente {
 
@@ -101,7 +124,7 @@
     width: 30px;
     border-radius: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
 
@@ -120,4 +143,8 @@
 
 .coloFondo {
     background-color: rgba(0, 0, 0, 0.432);
+}
+
+nav a{
+    margin: 5px;
 }
