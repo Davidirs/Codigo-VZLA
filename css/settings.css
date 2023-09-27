@@ -36,6 +36,7 @@ header{
 	display: flex;
 	margin: 10px;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .user div{
@@ -44,7 +45,6 @@ header{
 
 .info-user{
 	display: flex;
-	flex-direction: column;
 }
 
 .img-redonda{
@@ -100,4 +100,60 @@ header{
 .meta-logo{
 	display: flex;
 }
+.qr-code{
+	font-size: 30px;
+	color:#108060 ;
+}
+
+
+.options{
+    position: fixed;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 20px;
+    right: 2px;
+    left:  2px;
+    top: 200px;
+    width: 500px;
+    height:200px;
+       }
+
+.idioma{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.idioma h2{
+ margin-left: 10px;
+}
+
+.list-idioma{
+	display: flex;
+	flex-direction: column;
+}
+.list-idioma a{
+	margin-left: 10px;
+}
+#optionsLenguaje{
+	align-items: center;
+	justify-content: center;
+    position:fixed;
+    height: 100%;
+    width:100%;
+}
+
+
+.ocultar{
+    display: none;
+}
+
+.block{
+	display: block;
+}
+
+
 

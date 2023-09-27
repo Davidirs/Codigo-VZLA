@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+   background-color: #008069;
+   color: white;
+   height: 50px;
+}
+
+.ajustes{
+	display: flex;
+	align-items: center;
+
+}
+
+.ajustes h2{
+	margin-left: 50px;
+}
+
+.ajustes a{
+	margin-left: 10px;
+}
+
+.icon-serch-margin{
+	margin-right:10px ;
+}
+
+.invitar-amigos{
+	display: flex;
+	align-items: center;
+}
+
+ .invitar-amigos a{
+ 	background-color: #008069;
+ 	font-weight: 100;
+ 	font-size: 18px;
+ 	border-radius: 100%;
+ 	padding: 10px;
+ 	margin: 10px
+  }
+
+ .invitar-amigos i{
+ 	color: white;
+ }
+
+ h5{
+ 	color: gray;
+ 	margin: 10px;
+ }
+
+
+
+
+

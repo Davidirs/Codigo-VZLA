@@ -4,11 +4,7 @@
     font-family: 'Segoe UI', 'Helvetica Neue',Helvetica,'Lucida Grande';
 }
 
-header{
-    display: flex; justify-content: space-between;
-    background-color: #008069;
-    color: white;
-}
+
 
 .margen{
     padding-top: 20px;
@@ -23,11 +19,7 @@ header{
 }
 
 
-.orden{
-    padding-top: 15px;
-    background-color: #008069;
-    color: white;
-}
+
 
 .orden-1{
     padding-left: 60px;
