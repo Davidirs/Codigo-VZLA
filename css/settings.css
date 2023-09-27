@@ -94,11 +94,14 @@ header{
 
 .meta i{
 	color:black;
-	margin-right: 5px;
+}
+.meta a{
+	margin:2px;
 }
 
 .meta-logo{
 	display: flex;
+	align-items: center;
 }
 .qr-code{
 	font-size: 30px;
@@ -107,36 +110,48 @@ header{
 
 
 .options{
-    position: fixed;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    border-radius: 20px;
-    right: 2px;
-    left:  2px;
-    top: 200px;
-    width: 500px;
-    height:200px;
-       }
+  position: fixed; /* Stay in place */
+  z-index: 0; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height *//* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ }
 
-.idioma{
+.header-idioma{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.idioma h2{
+.header-idioma h2,a{
+	margin: 10px;
+}
+       
+
+.idioma{
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 20px 20px 0px 0px;
+	height: 40%;
+	width: 100%;
+	overflow-x:scroll ;
+}
+
+.header-idioma h2{
  margin-left: 10px;
 }
 
 .list-idioma{
 	display: flex;
 	flex-direction: column;
-}
-.list-idioma a{
-	margin-left: 10px;
+	align-items: flex-start;
+	justify-content: flex-end;
 }
 #optionsLenguaje{
 	align-items: center;
@@ -154,6 +169,7 @@ header{
 .block{
 	display: block;
 }
+
 
 
 

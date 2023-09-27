@@ -13,6 +13,12 @@ header{
    height: 50px;
 }
 
+.mensajes-temporales{
+	color: gray;
+	font-weight: 600;
+	margin-left: 20px;
+}
+
 .ajustes{
 	display: flex;
 	align-items: center;
