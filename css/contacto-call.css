@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+   background-color: #008069;
+   color: white;
+   height: 55px;
+   padding: 5px;
+}
+
+.margin-icon-search-ellip a{
+	margin-right:10px ;
+}
+
+.titulo-grupo{
+	display: flex;
+	align-items: center;
+}
+
+.options-contacts{
+	display: flex;
+	flex-direction: column;
+}
+
+.options-contacts div{
+	margin: 10px;
+}
+
+
+.new a,h3{
+	margin-left: 5px;
+}
+
+
+.new{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.new a{
+	height: 40px;
+	width: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:#008069;
+	border-radius: 100%;
+	color: white;
+	font-size: 20px;
+}
+
+.new i{
+	margin-right: 10px;
+}
+
+.flex{
+	display: flex;
+}
+.p-contacts{
+	color: gray;
+	margin-left: 10px;
+	font-weight: 600;
+}
+
+.titulo-grupo div,i{
+	margin-left: 12px;
+}
+.text-grupo{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.text-grupo h2,p{
+	margin-left: 0;
+	text-align: left;
+}
+
+.contacts{
+	display: flex;
+	flex-direction: column;
+}
+.contacts div{
+	margin: 5px;
+}
+
+.style-img{
+	height: 50px;
+	width: 50px;
+	border-radius: 100%;
+}
+
+.person{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.person p{
+	color: gray;
+}
+
+.person a{
+	color:#008069 ;
+}
+
+.color-gray{
+	color: gray;
+}
+
+.person-title{
+	display: flex;
+}
+
+.person-title div{
+	margin-left: 10px;
+}
+
+.icon-call-videocall{
+	display: flex;
+}
+.icon-call-videocall a{
+	margin-right: 10px;
+}
+

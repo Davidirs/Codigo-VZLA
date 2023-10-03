@@ -4,8 +4,6 @@
     font-family: 'Segoe UI', 'Helvetica Neue',Helvetica,'Lucida Grande';
 }
 
-
-
 .margen{
     padding-top: 20px;
     padding-right: 10px;
@@ -140,10 +138,57 @@
     
 }
 
+.mensajes-de{
+    display: flex;
+    align-items: center;
+}
+
+.mensajes-de div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mensajes-de i{
+    margin-left: 10px;
+    margin-right: 20px;
+    color: gray;
+}
+
+hr{
+    margin: 10px;
+}
+
+
 .flex-3{
     display: flex;
     justify-content: flex-end;
     padding-right: 20px;
+    margin-top: 20px;
+}
+span{
+   color: rgb(32,178, 147);
 }
 
+.icon-call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008069;
+    border-radius: 12px;
+    height: 55px;
+    width: 55px;
+}
+.call{
+    display: flex;
+    position: fixed;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;  
+}
 
+i{
+    color: white;
+}

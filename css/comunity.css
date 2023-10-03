@@ -7,17 +7,67 @@
     flex-direction: column;
     align-items: center;
 }
+
+.container-comunity h2{
+    font-weight: 500;
+}
 .btn-star-comunity{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #008069;
     height: 42px;
-    width: 80%;
+    width: 70%;
     color: #fff;
     border-radius: 20px;
+    cursor: pointer;
 }
 span{
     color: #01a385;
     font-weight: 550;
+}
+
+
+.start-comunity{
+    display: flex;
+	position: fixed;
+    top: 0;
+	flex-direction: column;
+	background-color: white;
+	height:100%;
+	width: 100%;
+}
+.start-comunity h1{
+    font-weight: 500;
+}
+
+.start-comunity img{
+    height: 300px;
+    width: 400px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.style-btn{
+    background-color:#008069;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    width: 70%;
+    font-weight: 600;
+}
+
+.direction{
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    color: gray;
 }
