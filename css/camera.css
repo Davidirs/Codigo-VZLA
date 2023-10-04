@@ -28,9 +28,12 @@
 
 .flex {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
-    margin: 20px;
+}
+
+.flex div{
+    margin: 10px;
 }
 
 .color {
@@ -57,18 +60,6 @@
 }
 
 
-.tomar-foto{
-    position:relative;
-    height: 55px;
-    width: 55px;
-    line-height: 55px;
-    bottom: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-}
-
 .tomar-foto .circulo-transparente{
    margin-right: 80px;
    margin-left: 80px;
@@ -84,8 +75,6 @@
     border-radius: 20px;
     padding: 3px 10px 3px 10px;
 }
-
-
 
 .order {
     display: flex;
@@ -109,16 +98,11 @@
     height: 30px;
     width: 30px;
     border-radius: 100%;
+    cursor: pointer;
 
 }
-
-.dimensiones{
-    height: 20vh;
-}
-
 
 .circulo-transparente {
-
     background-color: rgba(0, 0, 0, 0.432);
     height: 30px;
     width: 30px;
@@ -127,19 +111,13 @@
     justify-content: space-between;
     align-items: center;
 
-
 }
-
-
-
 
 .ancle {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-
-
-
 
 .coloFondo {
     background-color: rgba(0, 0, 0, 0.432);
