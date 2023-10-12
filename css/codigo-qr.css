@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.qr-code-section{
+  background-color: rgb(232,227,244);
+  display: flex;
+  flex-direction: column;
+}
+
+.qr-code-section .wrapper{
+  margin: 20px;
+}
+
+.color-gray{
+	color: gray;
+}
+.title{
+	display: flex;
+	margin: 10px;	
+}
+
+.title h3,a{
+	margin-left: 10px;
+}
+
+.title h3{
+	font-weight: 300;
+}
+
+.icons-options{
+	display: flex;
+	margin: 10px;
+}
+
+.icons-options a{
+	margin-right: 10px;
+	color: black;
+}
+
+.options-qr{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+}
+
+.my-code{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.style-img{
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	margin: 10px;
+}
+
+.user{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+  align-items: center;
+}
+.info h4{
+	font-weight: 600;
+}
+
+.wrapper{
+  background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  height: 265px;
+  background: #fff;
+  border-radius: 7px;
+  padding: 20px 25px 0;
+  transition: height 0.2s ease;
+}
+.wrapper.active{
+  height: 545px;
+}
+header h1{
+  font-size: 21px;
+  font-weight: 500;
+}
+header p{
+  margin-top: 5px;
+  color: #575757;
+  font-size: 16px;
+}
+.wrapper .form{
+  margin: 20px 0 25px;
+}
+.form :where(input, button){
+  width: 100%;
+  height: 55px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: 0.1s ease;
+}
+.form input{
+  font-size: 18px;
+  padding: 0 17px;
+  border: 1px solid #999;
+}
+.form input:focus{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+.form input::placeholder{
+  color: #999;
+}
+.form button{
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 17px;
+  background-image: linear-gradient(to right, #18aedb, #1b9677);
+  
+}
+
+.qr-code{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.wrapper.active .qr-code{
+  opacity: 1;
+  pointer-events: auto;
+  transition: opacity 0.5s 0.05s ease;
+}
+
+
+
+  .wrapper.active{
+    height: 510px;
+  }
+  header p{
+    color: #696969;
+  }
+  .form :where(input, button){
+    height: 52px;
+  }
+    
+}
+
+
+
+
+.titulo {
+
+  padding-top: 41px;
+  text-align: justify;
+  margin-top: -400px;
+  padding-right: 400px;
+  position: absolute;
+}
+
+.texto{
+justify-content: center;
+  margin-top: -250px;
+  padding-right: 400px;
+  position: absolute;
+}

@@ -1,0 +1,241 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+   background-color: #008069;
+   color: white;
+   height: 55px;
+   padding: 5px;
+}
+
+
+
+section div{
+	background-color: white;
+}
+
+section h3{
+	font-weight: 500;
+}
+
+.options{
+	margin-left: 20px;
+}
+
+.icon{
+	margin-right: 20px;
+}
+
+.icon i{
+	color: white;
+}
+.user{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.user p{
+	color: gray;
+}
+
+.description{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.description p{
+	color: gray;
+}
+.options-accions{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.notificaciones{
+	display: flex;
+	justify-content: space-between;
+}
+
+.options-accions div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+
+.options-accions i{
+	color:#008069;
+}
+
+.options-accions p{
+	color: #008069;
+}
+
+.options-media{
+	display: flex;
+	flex-direction: column;
+}
+.options-media div{
+	display: flex;
+	margin: 10px;
+}
+.options-media h3{
+	margin-left: 10px;
+}
+
+.options-media i{
+	color: gray;
+}
+hr{
+	padding: 3px;
+	background-color: rgb(236, 236,236 );
+}
+
+.option-prefer{
+	display: flex;
+	flex-direction: column;
+}
+.option-prefer i{
+	color: gray;
+}
+
+
+
+.option-prefer div{
+	display: flex;
+	margin: 10px;
+}
+.option-prefer p{
+	color: gray;
+}
+
+
+.text-div{
+	display: flex;
+	flex-direction: column;
+}
+
+.grupos-comun div{
+	display: flex;
+	margin: 10px;
+}
+.grupos-comun a{
+margin-right: 10px;
+}
+
+.grupos-comun h4{
+	color: gray;
+	margin-left: 10px;
+}
+
+.grupos-comun a{
+	background-color:#008069;
+	color: white;
+	border-radius: 100%;
+	padding: 5px;
+}
+
+.other{
+	display: flex;
+	flex-direction: column;
+	color: red;
+
+}
+
+.other div{
+	display: flex;
+	margin: 10px;
+}
+
+.other h3{
+	margin-left: 10px;
+
+}
+.other i{
+	color: red;
+}
+
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #008069;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #008069;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.padding{
+	padding: 10px;
+}
+
+
+
+
+

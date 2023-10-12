@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 
@@ -320,6 +321,7 @@ textarea{
 .options a{
     margin: 13px;
     font-weight: 550;
+    color: black;
 }
 
 .ocultar{

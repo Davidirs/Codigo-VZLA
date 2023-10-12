@@ -122,10 +122,79 @@ header{
 	margin-left: 10px;
 }
 
+.components-call{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.components-call p{
+	margin: 10px;
+	color: rgb(157,161,163);
+
+}
+.components-call i{
+	color: rgb(159,163,165);
+	margin-left: 10px;
+	margin-right:10px ;
+}
+.components-call h4{
+	font-weight: 500;
+}
+
+.style-img-call{
+	border-radius: 100%;
+	height: 80px;
+	width: 80px;
+	margin: 10px;
+}
+
 .icon-call-videocall{
 	display: flex;
 }
 .icon-call-videocall a{
 	margin-right: 10px;
+}
+
+
+.color-white{
+	color: white;
+}
+
+.call-start{
+	height: 100%;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	background-image: url("../assets/images/fondo-call.png");
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.options-call{
+	background-color: rgb(32, 44, 51);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.options-call a{
+	margin: 20px;
+}
+
+.options-call i{
+	font-size: 20px;
+}
+
+.icon-call{
+ background-color:rgb(233, 28, 67);
+ border-radius: 100%;
+ padding: 8px;
+ color: white;
+}
+
+.icon-video-color{
+	color: rgb(121, 128, 133);
 }
 
