@@ -12,6 +12,29 @@ header{
     justify-content:space-between ;
    padding: 20px;
 }
+
+section .container{
+    display: flex;
+    margin: 20px;
+}
+section .flex{
+    display: flex;
+    margin: 10px;
+}
+.status{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.status i{
+    color: gray;
+}
+
+h4{
+    color: gray;
+    margin: 10px;
+    font-weight: 500;
+}
 .color{
     color: white;
 }
@@ -72,9 +95,6 @@ nav{
     height: 60px;
     width: 60px;
 }
-.flex{
-    display: flex;
-}
 .icono-verde{
     border-radius: 50%;
     background-color: #24D365;
@@ -85,9 +105,12 @@ nav{
     align-items: center;
     margin:41px 0 0 -30px;
     border: 3px white solid;
-    color: white;
     font-size: xx-large;
 }
+.icono-verde i{
+     color: white;
+}
+
 .borde{
     border: #24D365 solid 5px;
 }
@@ -102,18 +125,9 @@ nav{
     border:rgb(145, 141, 141) solid 5px;
 }
 
-.especial{
-    margin: 10px 0 20px 10px;
-}
-
-.margen{
-margin:10px 0 20px 10px;
-}
 .style{
     color: #008069;
     
-
-
 }
 .text{
     text-align: center;
@@ -127,12 +141,7 @@ margin:10px 0 20px 10px;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    text-decoration: none;
-    
-
-
-   
-    
+    text-decoration: none;       
 }
 
 .radius{
@@ -148,8 +157,6 @@ margin:10px 0 20px 10px;
 
 }
    
-
-
 .containner{
     position: fixed;
     bottom: 20px;
@@ -180,7 +187,63 @@ margin: 40PX 0 40PX 10PX;
 
 .ancho{
     padding: 0px 20px;
-    height: 50px;
-    
-    
+    height: 50px;  
+}
+
+.canales{
+    margin: 20px;
+}
+.tex-and-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.tex-and-icon i{
+    font-size: 30px;
+    color: gray;
+}
+.canales-seguir{
+    display: flex;
+}
+.canales-seguir div{
+    margin: 10px;
+}
+.canales p{
+    color: gray;
+}
+.canales-seguir a{
+    border:1px solid gray;
+    border-radius: 100%;
+    padding: 5px;
+    color: black;
+}
+
+.seguir{
+    width: 800px;
+    height: 100px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 9px;
+    padding: 10px;
+}
+
+.seguir button{
+    background-color: rgb(158,237, 182);
+    border-radius: 20px;
+    border: none;
+   padding: 8px;
+   color: #008069;
+   font-weight: 600;
+}
+.btn-canal{
+    background-color:#008069;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }

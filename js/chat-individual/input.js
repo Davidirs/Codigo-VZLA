@@ -7,6 +7,11 @@ const chat = document.getElementById('chat');
 const ocultarOption = document.querySelector('.ocultar');
 const optionsChat= document.getElementById('optionsChat');
 const botonOptionChat =document.getElementById('butonOptions');
+const modalSilenciar = document.getElementById("notificaciones-silenciar")
+const cerrarModal = document.getElementById("close-modal");
+const abrirModal = document.getElementById("silenciar")
+
+
 
 
 function cambiarIcono() {
@@ -86,5 +91,13 @@ window.onclick = function(event)
     }
 }
 
+
+abrirModal.addEventListener('click',()=>{
+    modalSilenciar.style.display="flex";
+});
+
+cerrarModal.addEventListener('click',()=>{
+    modalSilenciar.style.display="none";
+});
 
 

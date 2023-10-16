@@ -4,6 +4,12 @@
     font-family: 'Segoe UI', 'Helvetica Neue',Helvetica,'Lucida Grande';
 }
 
+section img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
 .margen{
     padding-top: 20px;
     padding-right: 10px;
@@ -15,8 +21,6 @@
     padding-left: 15px;
     padding-top: 22px;
 }
-
-
 
 
 .orden-1{
@@ -192,3 +196,4 @@ span{
 i{
     color: white;
 }
+

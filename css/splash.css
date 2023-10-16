@@ -3,7 +3,8 @@
     padding: 0;
 }
 .splash-w{
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: white;
     position: fixed;
     top: 0;

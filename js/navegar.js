@@ -28,4 +28,5 @@ function changeTab(tab) {
 window.onload=()=>{
     $(document).ready(function(){
         $('#header').load('../components/header.html')});
+       
     }

@@ -129,6 +129,12 @@ header{
 .header-idioma h2,a{
 	margin: 10px;
 }
+
+.header-idioma i{
+	color: gray;
+	font-weight: bold;
+	font-size: 30px;
+}
        
 
 .idioma{
@@ -152,6 +158,7 @@ header{
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: flex-end;
+	margin: 10px;
 }
 #optionsLenguaje{
 	align-items: center;
@@ -169,7 +176,82 @@ header{
 .block{
 	display: block;
 }
+.content {
+	width: 50%;
+	
+}
 
+legend.radio {
+	border-radius: 50px;
+}
+
+
+.container ul li {
+	list-style-type: none;
+}
+
+.container ul + ul > li + li label {
+	margin-bottom: 0;
+}
+.container li{
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.container p{
+	color: gray;
+	margin-left: 40px;
+}
+
+/*estilos de los inputs*/
+
+input[type="radio"],
+input[type="checkbox"] {
+	display: none;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+	line-height: 3em;
+}
+
+
+
+
+input[type="radio"] + label:before,
+input[type="checkbox"] + label:before {
+	content: "";
+	width: 26px;
+	height: 26px;
+	float: left;
+	margin-right: 0.5em;
+	border: 2px solid #ccc;
+	background: #fff;
+	margin-top: 0.5em;
+}
+input[type="radio"] + label:before {
+	border-radius: 100%;
+}
+
+
+
+input[type="radio"]:checked + label:after {
+	content: "";
+	width: 0;
+	height: 0;
+	border: 7px solid #008069;
+	float: left;
+	margin-left: -1.85em;
+	margin-top: 1em;
+	border-radius: 100%;
+}
+
+
+input[type="radio"]:checked + label:before,
+input[type="checkbox"]:checked + label:before {
+	border-color: #008069;
+}
 
 
 

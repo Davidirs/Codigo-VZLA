@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+   background-color: #008069;
+   color: white;
+   height: 55px;
+   padding: 5px;
+}
+
+
+
+.info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 10px;
+
+}
+.info p{
+	color: grey;
+	font-weight: 500;
+}
+
+.info h3{
+	margin-left: 0;
+	color: rgb(97, 97, 97 );
+	font-weight: bolder;
+}
+.info span{
+	color: rgb(55, 153, 196);
+}
+
+.temp a,h3{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.titulo-temp{
+	display: flex;
+	align-items: center;
+}
+.img-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.duracion-mj{
+	margin-left: 10px;
+}
+.duracion-mj div{
+	display: flex;
+	margin: 10px;
+}
+.duracion-mj p{
+	margin-left: 10px;
+}
+.duracion-mj h4{
+	font-weight:bolder;
+	color: rgb(41, 41, 41);
+}
+
+hr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.text-final{
+	color: gray;
+}
+.text-final span{
+	color: rgb(55, 153, 196);
+}
+.text-final p{
+	margin: 10px;
+}
+
+
+
+
+.content {
+	width: 50%;
+	
+}
+
+legend.radio {
+	border-radius: 50px;
+}
+
+
+.container ul li {
+	list-style-type: none;
+}
+
+.container ul + ul > li + li label {
+	margin-bottom: 0;
+}
+
+/*estilos de los inputs*/
+
+input[type="radio"],
+input[type="checkbox"] {
+	display: none;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+	line-height: 3em;
+}
+
+
+
+
+input[type="radio"] + label:before,
+input[type="checkbox"] + label:before {
+	content: "";
+	width: 26px;
+	height: 26px;
+	float: left;
+	margin-right: 0.5em;
+	border: 2px solid #ccc;
+	background: #fff;
+	margin-top: 0.5em;
+}
+input[type="radio"] + label:before {
+	border-radius: 100%;
+}
+
+
+
+input[type="radio"]:checked + label:after {
+	content: "";
+	width: 0;
+	height: 0;
+	border: 7px solid #008069;
+	float: left;
+	margin-left: -1.85em;
+	margin-top: 1em;
+	border-radius: 100%;
+}
+
+
+input[type="radio"]:checked + label:before,
+input[type="checkbox"]:checked + label:before {
+	border-color: #008069;
+}
+
+
+
+
+
+
