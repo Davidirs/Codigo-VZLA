@@ -46,7 +46,7 @@ span{
     width: 400px;
 }
 
-.content{
+.contentenido{
     display: flex;
     flex-direction: column;
     justify-content: center;
