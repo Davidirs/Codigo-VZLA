@@ -21,6 +21,7 @@
     color: #fff;
     border-radius: 20px;
     cursor: pointer;
+    margin: 10px;
 }
 span{
     color: #01a385;
@@ -42,8 +43,9 @@ span{
 }
 
 .start-comunity img{
-    height: 300px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
+    margin: 10px;
 }
 
 .contentenido{
