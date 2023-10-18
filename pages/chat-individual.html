@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/chat-inidiv.css">
     <script src="https://kit.fontawesome.com/b26a7e9eb3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -65,7 +66,10 @@
 
     <section class="ordenador">
         <div class="container">
-            <div class="stiker"><a class="fa-solid fa-face-grin-wide" id="mostrarEmoji"></a></div>
+
+            <div class="stiker">
+                <a class="fa-solid fa-face-grin-wide" id="mostrarEmoji"></a>
+            </div>
 
             <div id="input" tabindex="0">
 
@@ -77,9 +81,10 @@
                 <a class="fa-solid fa-paperclip"></a>
                 <a class=" fa-solid fa-camera" href="camera.html"></a>
             </div>
+              <a class=" microphone" onclick="sendmessage();" >
+            <i class="bi bi-mic-fill" id="boton-icon-chage" ></i></a>
         </div>
-        <a class=" microphone" onclick="sendmessage();" >
-        <i class="fa-solid fa-microphone" id="boton-icon-chage" ></i></a>
+      
         
     </section>
     <section id="emoji-windows" style="background-color: white;" class="none">
