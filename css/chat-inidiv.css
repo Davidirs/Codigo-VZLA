@@ -62,8 +62,9 @@ body {
     justify-content: center;
 }
 
-.bg-mostar p {
-    margin: 10px;
+.bg-mostar h5{
+    margin: 15px;
+    font-weight: 500;
 }
 
 .info {
@@ -89,9 +90,10 @@ body {
     background-color: white;
     color: rgb(57, 57, 57);
     border-radius: 10px;
-    height: 45px;
-    width: 58px;
+    height: 30px;
+    width: 50px;
 }
+
 
 .font-zize {
     font-size: 40px;
@@ -112,6 +114,11 @@ body {
 .user-contact a{
     margin-left: 5px;
     margin-right: 5px;
+    font-size: 20px;
+}
+
+.user-contact h3{
+    font-weight: 500;
 }
 
 
@@ -147,7 +154,7 @@ body {
     justify-content: center;
     background-color: rgb(0, 168, 132);
     border-radius: 100%;
-   padding: 5px;
+   padding: 9px;
 }
 
 .microphone i {
@@ -163,7 +170,7 @@ body {
 }
 
 .stiker {
-    margin-left: 2px;
+    margin-left: 8px;
     font-size: 25px;
 }
 
@@ -321,9 +328,13 @@ textarea{
 }
 .options a{
     margin: 13px;
-    font-weight: 550;
+    font-weight: 400;
     color: black;
     cursor: pointer;
+}
+.microphone-div{
+    margin-right: 5px;
+    margin-left: 3px;
 }
 
 .ocultar{
