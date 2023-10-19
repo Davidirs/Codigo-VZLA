@@ -72,7 +72,8 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100%;
-    overflow-y:scroll;
+    overflow-y:auto;
+    overflow-x:auto;
 }
 
 .info div {
@@ -240,8 +241,12 @@ body {
     height: 40px;
     background-color: white;
     color: black;
-    overflow-y: scroll;
+    overflow-x: auto;
 
+}
+textarea{
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 #barra{

@@ -29,6 +29,10 @@ section .flex{
 .status i{
     color: gray;
 }
+.my-status{
+    display: flex;
+    justify-content: flex-start;
+}
 
 h4{
     color: gray;
@@ -138,6 +142,7 @@ nav{
     background-color: #9cc7b6;
     border-radius: 10px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
@@ -150,6 +155,7 @@ nav{
     height: 50px;
     width: 50px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-decoration: none;
@@ -203,6 +209,8 @@ margin: 40PX 0 40PX 10PX;
 }
 .canales-seguir{
     display: flex;
+    overflow-x:auto;
+  white-space: nowrap;
 }
 .canales-seguir div{
     margin: 10px;
