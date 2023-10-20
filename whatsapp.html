@@ -18,9 +18,33 @@
     
 </head>
 <body>
-    <div id="header">
-
-    </div>
+    <header>
+        <h1 class="color">WhatsApp</h1>
+        <ul class="order">
+          <li><a href="pages/camera.html"><i class="fa-solid fa-camera color"></i></a></li>
+          <li><a><i class="fa-solid fa-magnifying-glass color"></i></a></li>
+          <li><a id="mostrarOpciones"><i class="fa-solid fa-ellipsis-vertical color"></i></a></li>
+        </ul>
+      </header>
+      <nav class="tag">
+        <ul class="list-style">
+          <li class="fonz ancho"><a class="animacionColor" onclick="changeTab(0);"><i
+                class="fa-solid fa-people-group"></i></a></li>
+          <li class="fonz ancho "><a class="animacionColor activo" onclick="changeTab(1);" class="menuChat"> Chats</a></li>
+          <li class="fonz ancho "><a class="animacionColor" onclick="changeTab(2);">Estados</a> </li>
+          <li class="fonz ancho"><a class="animacionColor" onclick="changeTab(3);"> Llamadas</a> </li>
+        </ul>
+      </nav>
+    
+      <div class="optionsChats none" id="optionsChat" >
+        <div class="options">
+          <a href="pages/nuevo-grupo.html">Nuevo grupo</a>
+          <a href="pages/nueva-dificion.html" >Nueva difusión</a>
+          <a href="pages/dispositivos-vinculados.html">Dispositivos vinculados</a>
+          <a href="pages/mensajes-destacados.html" >Mensajes destacados</a>
+          <a href="pages/setting.html">Ajustes</a>
+        </div>
+      </div>
 
     
     <main id="content">

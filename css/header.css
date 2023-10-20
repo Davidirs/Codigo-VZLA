@@ -33,9 +33,9 @@ flex-direction: column;
 justify-content: center;
 
 }
-.order li{
+/* .order li{
     margin-right: 20px;
-}
+} */
 
 .list-style{
     list-style: none;

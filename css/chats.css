@@ -28,11 +28,6 @@ section img{
 }
 
 
-.fa-solid{
-    padding-left: 20px;
-    padding-top: 8px;
-}
-
 .img-1{
     width: 30px;
     height: 30px;
@@ -96,6 +91,9 @@ section img{
 .flex-2{
     display: flex;
     padding-top: 2px;
+}
+.flex-2 div{
+    margin: 10px;
 }
 
 .img-4{

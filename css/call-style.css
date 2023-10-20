@@ -18,14 +18,15 @@ span{
 }
 .icon-link{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #008069;
-    border-radius: 30px;
+    border-radius: 100%;
     color: #fff;
     padding: 18px;
+    margin-left: 2px;
 }
+
 .icon-call{
     display: flex;
     flex-direction: column;

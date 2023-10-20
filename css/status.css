@@ -5,13 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    width: 100%;
-    background-color: #008069;
-    display: flex;
-    justify-content:space-between ;
-   padding: 20px;
-}
+
 
 section .container{
     display: flex;
@@ -32,6 +26,15 @@ section .flex{
 .my-status{
     display: flex;
     justify-content: flex-start;
+}
+.estado-style{
+    display: flex;
+}
+.estado-style {
+    margin: 10px;
+}
+.tex-my-staus{
+    margin-left: 10px;
 }
 
 h4{
@@ -79,16 +82,17 @@ justify-content: space-between;
 
 .tag{
     height: 50px;
-    
     color: darkgrey;
     
+}
+.especial{
+    display: flex;
 }
 
 nav{
     background-color: #008069;
     display: block;
-    justify-content:space-between ;
-    
+    justify-content:space-between ;  
 
 }
 

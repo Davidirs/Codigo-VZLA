@@ -1,7 +1,16 @@
-let animacionColor = document.getElementsByClassName('animacionColor');
-let mostarOpciones = document.getElementById('mostrarOpciones');
-let optionsChat = document.getElementById('optionsChat');
-let none = document.querySelector('.none');
+let animacionColor = document.querySelectorAll('.animacionColor');
+let mostrar = document.getElementById('mostrarOpciones');
+let options = document.getElementById('optionsChat');
+let ocultar = document.querySelector('none')
+
+mostrar.addEventListener('click',()=>{
+    options.classList.toggle('none');
+    options.classList.toggle('mostrar');
+});
+
+
+
+
 
 
 
@@ -22,17 +31,6 @@ function agregarClase(j) {
     //agregar nueva clase llamada active
    animacionColor[j].classList.add("activo");
 }
-
-mostarOpciones.addEventListener('click',()=>{
-    optionsChat.classList.toggle('mostrar')
-    optionsChat.classList.toggle('none')
-});
-
-
-
-
-
-
 
 
 
